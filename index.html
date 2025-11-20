@@ -29,7 +29,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
+      <div class="container">
         <a class="navbar-brand" href="./index.html">El tiempo</a>
         <button
           class="navbar-toggler"
@@ -43,14 +43,14 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="./index.html"
                 >Inicio</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="./detalle.html">Detalle</a>
             </li>
           </ul>
         </div>
@@ -61,6 +61,7 @@
     <main class="container">
       <h1 class="text-center">Reporte del tiempo en Chile</h1>
       <div class="row row-cols-1 row-cols-md-2 g-4">
+        <!-- Start Tarjeta 1 -->
         <div class="col">
           <div class="card text-center">
             <i class="bi bi-brightness-high"></i>
@@ -71,6 +72,8 @@
             </div>
           </div>
         </div>
+        <!-- End tarjeta 1 -->
+        <!-- Start Tarjeta 2 -->
         <div class="col">
           <div class="card">
             <i class="bi bi-brightness-high"></i>
@@ -84,28 +87,14 @@
             </div>
           </div>
         </div>
+        <!-- End Tarjeta 2 -->
         <div class="col">
           <div class="card">
-            <img src="..." class="card-img-top" alt="..." />
+            <i class="bi bi-brightness-high"></i>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
+              <h5 class="card-title">Puerto Natales</h5>
+              <p class="card-text">16°C</p>
+              <p class="card-text">Lluvioso</p>
             </div>
           </div>
         </div>
@@ -114,6 +103,20 @@
 
     <!-- Grilla de localidades end -->
     <!-- FOoter -->
-    <footer></footer>
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link px-2 text-body-secondary"
+            >Incio</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="./detalle.html" class="nav-link px-2 text-body-secondary"
+            >Detalle</a
+          >
+        </li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2025 Bootcamp Frond-End</p>
+    </footer>
   </body>
 </html>
