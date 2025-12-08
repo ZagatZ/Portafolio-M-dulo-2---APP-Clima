@@ -2,6 +2,14 @@ i {
   font-size: 40px;
 }
 
-a {
-  text-decoration: none;
+.img-cover-fill {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
